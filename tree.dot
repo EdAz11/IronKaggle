@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="Nb_customers_on_day <= 427.5\nsamples = 480630\nvalue = 5781.409", fillcolor="#f5d1b6"] ;
+1 [label="Nb_customers_on_day <= 200.5\nsamples = 130047\nvalue = 1328.533", fillcolor="#fdf4ee"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="Nb_customers_on_day <= 93.5\nsamples = 82971\nvalue = 23.066", fillcolor="#ffffff"] ;
+1 -> 2 ;
+3 [label="samples = 81693\nvalue = 0.112", fillcolor="#ffffff"] ;
+2 -> 3 ;
+4 [label="samples = 1278\nvalue = 1490.366", fillcolor="#fdf3ec"] ;
+2 -> 4 ;
+5 [label="Nb_customers_on_day <= 338.5\nsamples = 47076\nvalue = 3629.407", fillcolor="#f9e2d1"] ;
+1 -> 5 ;
+6 [label="samples = 15906\nvalue = 2914.4", fillcolor="#fae8da"] ;
+5 -> 6 ;
+7 [label="samples = 31170\nvalue = 3994.274", fillcolor="#f8dfcd"] ;
+5 -> 7 ;
+8 [label="Nb_customers_on_day <= 975.5\nsamples = 350583\nvalue = 7433.181", fillcolor="#f3c3a1"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="Nb_customers_on_day <= 673.5\nsamples = 274590\nvalue = 6426.671", fillcolor="#f4cbae"] ;
+8 -> 9 ;
+10 [label="samples = 149745\nvalue = 5521.034", fillcolor="#f6d3b9"] ;
+9 -> 10 ;
+11 [label="samples = 124845\nvalue = 7512.936", fillcolor="#f3c3a0"] ;
+9 -> 11 ;
+12 [label="Nb_customers_on_day <= 1698.5\nsamples = 75993\nvalue = 11070.061", fillcolor="#eda673"] ;
+8 -> 12 ;
+13 [label="samples = 64262\nvalue = 10228.97", fillcolor="#eead7e"] ;
+12 -> 13 ;
+14 [label="samples = 11731\nvalue = 15677.528", fillcolor="#e58139"] ;
+12 -> 14 ;
+}
